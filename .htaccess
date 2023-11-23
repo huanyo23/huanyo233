@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirect any URL with random characters to a specific page
+RewriteRule ^randomcharacters$ /index.html [L,R=301]
